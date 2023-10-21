@@ -1,10 +1,11 @@
-# AIM
+# EXP-04 MULTIVARIATE ANALYSIS
+## AIM
 To perform Multivariate EDA on the given data set.
-# EXPLANATION
+## EXPLANATION
 - <B>Exploratory data analysis</B> is used to understand the messages within a dataset.<br>
 - This technique involves many iterative processes to ensure that the cleaned data is further sorted to better understand the useful meaning.<br>
 - The primary aim with exploratory analysis is to examine the data for distribution, outliers and anomalies to direct specific testing of your hypothesis.
-# ALGORITHM
+## ALGORITHM
 ### STEP 1
 Import the built libraries required to perform EDA and outlier removal.
 ### STEP 2
@@ -22,7 +23,7 @@ Find the pairwise correlation of all columns in the dataframe.corr()
 ### STEP 8
 Save the final data set into the file
 
-# CODE
+## CODE
 - <B>Diabetes.csv</B>
 ```python
 import pandas as pd
